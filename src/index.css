@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-primary: #3e499e;
+  --color-primary-hover: #323a7e;
+  --color-primary-light: #eef0f8;
+  --color-brand-blue: #3e499e;
+  --color-brand-blue-hover: #323a7e;
+  --color-brand-bg: #f7f8fc;
+}
+
+/* Ensure the layout has RTL and correct typography by default */
+html {
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f8fc;
+  color: #18181b;
+}
